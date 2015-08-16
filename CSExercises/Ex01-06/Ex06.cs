@@ -10,7 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine();
+            int x = Convert.ToInt16(Console.ReadLine());
+            Decimal y=Convert.ToDecimal(x);
+            y=(Math,Pow(y,0.5));
+            Console writeline(y);
+
+
         }
     }
 }

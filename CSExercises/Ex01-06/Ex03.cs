@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("please input a double precision number");
+            Double num = Convert.ToDouble (Console.ReadLine());
+            num=num*num;
+            Console.WriteLine(num);
         }
     }
 }
